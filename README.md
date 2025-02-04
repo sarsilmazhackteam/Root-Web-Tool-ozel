@@ -1,6 +1,7 @@
 # Root Security Scanner
 Root Security Scanner, web uygulamalarındaki güvenlik açıklarını tespit etmek için geliştirilmiş Python tabanlı bir güvenlik tarayıcıdır. Komut enjeksiyonu, dizin gezintisi, dosya dahil etme, XSS, CSRF, dosya yükleme açıklıkları, WAF tespiti ve bypass teknikleri gibi birçok güvenlik testini otomatik olarak gerçekleştirir.
 
+*- Bu Tool Emin Sarsılmaz tarafınca kodlanmıştır.*
 # Özellikler
 ✅ Komut Enjeksiyonu testi
 
@@ -26,7 +27,7 @@ Python 3.x'in yüklü olduğundan emin olun. Ardından, gerekli kütüphaneleri 
 
 ***pip install requests urllib3 termcolor pyfiglet colorama***
 
-SQLMap'in sisteminizde kurulu olması gerekmektedir. Eğer yoksa, şu komutla kurabilirsiniz:
+- SQLMap'in sisteminizde kurulu olması gerekmektedir. Eğer yoksa, şu komutla kurabilirsiniz:
 
 ***git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap
 cd sqlmap
