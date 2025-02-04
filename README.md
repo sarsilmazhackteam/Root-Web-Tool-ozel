@@ -68,11 +68,13 @@ SQLMap ile Veritabanı Tespiti	SQL Injection güvenlik açığı var mı?
 Port Taraması	Belirlenen portlar açık mı?
 
 Örnek Çıktılar
+
 1. Komut Enjeksiyonu Açığı Bulunduğunda:
 
 ***[*] Komut Enjeksiyonu testi yapılıyor...**
 
 ***[!] Komut Enjeksiyonu açığı bulundu!***
+
 
 2. Açık Dizin Testi Sonucu:
 
@@ -80,11 +82,13 @@ Port Taraması	Belirlenen portlar açık mı?
 
 ***[+] Açık dizin bulunamadı.***
 
+
 3. Dosya Dahil Etme Açığı Bulunduğunda:
 
 ***[*] Dosya Dahil Etme testi yapılıyor...**
 
 ***[!] Dosya Dahil Etme açığı bulundu!***
+
 
 4. SQLMap Taraması Sonucu:
 
@@ -95,6 +99,7 @@ Port Taraması	Belirlenen portlar açık mı?
 *- admin_db*
 
 *- users_db*
+
 
 WAF Bypass Denemeleri
 Tool, aşağıdaki WAF bypass tekniklerini denemektedir:
@@ -110,6 +115,7 @@ Tool, aşağıdaki WAF bypass tekniklerini denemektedir:
 Başarıyla WAF bypass edilirse, şu mesaj gösterilir:
 
 **[!] Parametre Kirliliği ile WAF bypass edildi!**
+
 
 Port Taraması
 Varsayılan olarak şu portlar taranır:
