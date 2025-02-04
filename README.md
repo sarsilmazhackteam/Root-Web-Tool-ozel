@@ -27,7 +27,7 @@ Python 3.x'in yüklü olduğundan emin olun. Ardından, gerekli kütüphaneleri 
 
 ***pip install requests urllib3 termcolor pyfiglet colorama***
 
-- Tool kurulum: Aşağıdaki şekilde Toolu kurabilirsiniz:
+- Aşağıdaki şekilde Toolu kurabilirsiniz:
 
 ***git clone https://github.com/sarsilmazhackteam/Root-Web-Tool-ozel.git***
 
