@@ -109,7 +109,7 @@ Tool, aşağıdaki WAF bypass tekniklerini denemektedir:
 
 Başarıyla WAF bypass edilirse, şu mesaj gösterilir:
 
-***[!] Parametre Kirliliği ile WAF bypass edildi!**
+**[!] Parametre Kirliliği ile WAF bypass edildi!**
 
 Port Taraması
 Varsayılan olarak şu portlar taranır:
