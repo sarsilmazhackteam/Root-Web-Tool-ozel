@@ -50,7 +50,7 @@ https://hedefsite.com***
 3. Otomatik Güvenlik Testleri
 Tool, girilen URL’ye karşı çeşitli güvenlik testleri gerçekleştirecektir. Eğer bir güvenlik açığı tespit edilirse, kırmızı renkte gösterilecektir.
 
-***[*] Komut Enjeksiyonu testi yapılıyor...***
+***[*] Komut Enjeksiyonu testi yapılıyor...**
 
 ***[!] Komut Enjeksiyonu açığı bulundu!***
 
@@ -70,25 +70,25 @@ Port Taraması	Belirlenen portlar açık mı?
 Örnek Çıktılar
 1. Komut Enjeksiyonu Açığı Bulunduğunda:
 
-***[*] Komut Enjeksiyonu testi yapılıyor...***
+***[*] Komut Enjeksiyonu testi yapılıyor...**
 
 ***[!] Komut Enjeksiyonu açığı bulundu!***
 
 2. Açık Dizin Testi Sonucu:
 
-***[*] Açık dizin testi yapılıyor...***
+***[*] Açık dizin testi yapılıyor...**
 
 ***[+] Açık dizin bulunamadı.***
 
 3. Dosya Dahil Etme Açığı Bulunduğunda:
 
-***[*] Dosya Dahil Etme testi yapılıyor...***
+***[*] Dosya Dahil Etme testi yapılıyor...**
 
 ***[!] Dosya Dahil Etme açığı bulundu!***
 
 4. SQLMap Taraması Sonucu:
 
-***[*] SQLMap ile veritabanları tespit ediliyor...***
+***[*] SQLMap ile veritabanları tespit ediliyor...**
 
 ***[!] Bulunan veritabanları:***
 
@@ -109,7 +109,7 @@ Tool, aşağıdaki WAF bypass tekniklerini denemektedir:
 
 Başarıyla WAF bypass edilirse, şu mesaj gösterilir:
 
-***[!] Parametre Kirliliği ile WAF bypass edildi!***
+***[!] Parametre Kirliliği ile WAF bypass edildi!**
 
 Port Taraması
 Varsayılan olarak şu portlar taranır:
