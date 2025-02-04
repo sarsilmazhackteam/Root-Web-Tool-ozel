@@ -137,5 +137,6 @@ Açık portlar yeşil renkte, kapalı portlar kırmızı renkte gösterilir:
 *Bu araç, yalnızca yasal testler ve eğitim amaçlı kullanılmalıdır. İzinsiz sızma testleri suçtur ve yasal sorumluluk gerektirir. Kullanımından doğabilecek tüm yasal sorumluluk kullanıcıya aittir.*
 
 **👤 Sarsılmaz Hack Team - Telegram**
+***https://t.me/sarsilmazhackteam***
 
 ***Eğitim İçindir, Kötüye Kullanım Yasaktır!***
