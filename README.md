@@ -30,7 +30,9 @@ Python 3.x'in yüklü olduğundan emin olun. Ardından, gerekli kütüphaneleri 
 - SQLMap'in sisteminizde kurulu olması gerekmektedir. Eğer yoksa, şu komutla kurabilirsiniz:
 
 ***git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git***
+
 ***cd sqlmap***
+
 ***python sqlmap.py --help***
 
 # Kullanım
@@ -42,7 +44,8 @@ Aşağıdaki komutu kullanarak Root Security Scanner'ı başlatabilirsiniz:
 2. URL Girin
 Tool çalıştırıldığında, analiz etmek istediğiniz URL’yi girin:
 
-***[?] Taranacak URL: https://hedefsite.com***
+***[?] Taranacak URL: 
+https://hedefsite.com***
 
 3. Otomatik Güvenlik Testleri
 Tool, girilen URL’ye karşı çeşitli güvenlik testleri gerçekleştirecektir. Eğer bir güvenlik açığı tespit edilirse, kırmızı renkte gösterilecektir.
