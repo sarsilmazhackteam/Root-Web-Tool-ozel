@@ -50,8 +50,9 @@ https://hedefsite.com***
 3. Otomatik Güvenlik Testleri
 Tool, girilen URL’ye karşı çeşitli güvenlik testleri gerçekleştirecektir. Eğer bir güvenlik açığı tespit edilirse, kırmızı renkte gösterilecektir.
 
-***[*] Komut Enjeksiyonu testi yapılıyor...
-[!] Komut Enjeksiyonu açığı bulundu!***
+***[*] Komut Enjeksiyonu testi yapılıyor...***
+
+***[!] Komut Enjeksiyonu açığı bulundu!***
 
 Test Edilen Güvenlik Açıkları
 Açık Türü	Açıklama
@@ -69,22 +70,26 @@ Port Taraması	Belirlenen portlar açık mı?
 Örnek Çıktılar
 1. Komut Enjeksiyonu Açığı Bulunduğunda:
 
-***[*] Komut Enjeksiyonu testi yapılıyor...
-[!] Komut Enjeksiyonu açığı bulundu!***
+***[*] Komut Enjeksiyonu testi yapılıyor...***
+
+***[!] Komut Enjeksiyonu açığı bulundu!***
 
 2. Açık Dizin Testi Sonucu:
 
-***[*] Açık dizin testi yapılıyor...
-[+] Açık dizin bulunamadı.***
+***[*] Açık dizin testi yapılıyor...***
+
+***[+] Açık dizin bulunamadı.***
 
 3. Dosya Dahil Etme Açığı Bulunduğunda:
 
-***[*] Dosya Dahil Etme testi yapılıyor...
-[!] Dosya Dahil Etme açığı bulundu!***
+***[*] Dosya Dahil Etme testi yapılıyor...***
+
+***[!] Dosya Dahil Etme açığı bulundu!***
 
 4. SQLMap Taraması Sonucu:
 
 ***[*] SQLMap ile veritabanları tespit ediliyor...***
+
 ***[!] Bulunan veritabanları:***
 
 *- admin_db*
@@ -95,8 +100,11 @@ WAF Bypass Denemeleri
 Tool, aşağıdaki WAF bypass tekniklerini denemektedir:
 
 ✔ Parametre Kirliliği: ?id=1&id=2
+
 ✔ Büyük/Küçük Harf Manipülasyonu: ?id=1 AND 1=1
+
 ✔ Null Byte Injection: ?id=1%00
+
 ✔ Content-Type Manipülasyonu: JSON formatında istek gönderme
 
 Başarıyla WAF bypass edilirse, şu mesaj gösterilir:
@@ -120,8 +128,9 @@ Varsayılan olarak şu portlar taranır:
 
 Açık portlar yeşil renkte, kapalı portlar kırmızı renkte gösterilir:
 
-***[+] Port 80 açık.
-[-] Port 3306 kapalı.***
+***[+] Port 80 açık.***
+
+***[-] Port 3306 kapalı.***
 
 # Yasal Uyarı
 
