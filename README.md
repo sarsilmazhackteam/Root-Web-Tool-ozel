@@ -29,9 +29,9 @@ Python 3.x'in yüklü olduğundan emin olun. Ardından, gerekli kütüphaneleri 
 
 - SQLMap'in sisteminizde kurulu olması gerekmektedir. Eğer yoksa, şu komutla kurabilirsiniz:
 
-***git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap
-cd sqlmap
-python sqlmap.py --help***
+***git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git***
+***cd sqlmap***
+***python sqlmap.py --help***
 
 # Kullanım
 1. Tool'u Çalıştırın
