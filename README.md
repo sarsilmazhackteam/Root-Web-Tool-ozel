@@ -36,18 +36,18 @@ Python 3.x'in yüklü olduğundan emin olun. Ardından, gerekli kütüphaneleri 
 ***python sqlmap.py --help***
 
 # Kullanım
-1. Tool'u Çalıştırın
+#### 1. Tool'u Çalıştırın
 Aşağıdaki komutu kullanarak Root Security Scanner'ı başlatabilirsiniz:
 
 ***python SARSİLMAZ.py***
 
-2. URL Girin
+#### 2. URL Girin
 Tool çalıştırıldığında, analiz etmek istediğiniz URL’yi girin:
 
 ***[?] Taranacak URL: 
 https://hedefsite.com***
 
-3. Otomatik Güvenlik Testleri
+#### 3. Otomatik Güvenlik Testleri
 Tool, girilen URL’ye karşı çeşitli güvenlik testleri gerçekleştirecektir. Eğer bir güvenlik açığı tespit edilirse, kırmızı renkte gösterilecektir.
 
 ***[*] Komut Enjeksiyonu testi yapılıyor...**
@@ -69,28 +69,28 @@ Port Taraması	Belirlenen portlar açık mı?
 
 Örnek Çıktılar
 
-1. Komut Enjeksiyonu Açığı Bulunduğunda:
+#### 1. Komut Enjeksiyonu Açığı Bulunduğunda:
 
 ***[*] Komut Enjeksiyonu testi yapılıyor...**
 
 ***[!] Komut Enjeksiyonu açığı bulundu!***
 
 
-2. Açık Dizin Testi Sonucu:
+#### 2. Açık Dizin Testi Sonucu:
 
 ***[*] Açık dizin testi yapılıyor...**
 
 ***[+] Açık dizin bulunamadı.***
 
 
-3. Dosya Dahil Etme Açığı Bulunduğunda:
+#### 3. Dosya Dahil Etme Açığı Bulunduğunda:
 
 ***[*] Dosya Dahil Etme testi yapılıyor...**
 
 ***[!] Dosya Dahil Etme açığı bulundu!***
 
 
-4. SQLMap Taraması Sonucu:
+#### 4. SQLMap Taraması Sonucu:
 
 ***[*] SQLMap ile veritabanları tespit ediliyor...**
 
@@ -101,7 +101,8 @@ Port Taraması	Belirlenen portlar açık mı?
 *- users_db*
 
 
-WAF Bypass Denemeleri
+#### WAF Bypass Denemeleri
+
 Tool, aşağıdaki WAF bypass tekniklerini denemektedir:
 
 ✔ Parametre Kirliliği: ?id=1&id=2
@@ -117,7 +118,8 @@ Başarıyla WAF bypass edilirse, şu mesaj gösterilir:
 **[!] Parametre Kirliliği ile WAF bypass edildi!**
 
 
-Port Taraması
+#### Port Taraması
+
 Varsayılan olarak şu portlar taranır:
 
 *✅ 80 (HTTP)*
