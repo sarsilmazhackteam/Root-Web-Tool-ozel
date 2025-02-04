@@ -49,6 +49,7 @@ Tool, girilen URL’ye karşı çeşitli güvenlik testleri gerçekleştirecekti
 
 ***[*] Komut Enjeksiyonu testi yapılıyor...
 [!] Komut Enjeksiyonu açığı bulundu!***
+
 Test Edilen Güvenlik Açıkları
 Açık Türü	Açıklama
 Komut Enjeksiyonu	Web uygulamasının komut satırına zararlı komutlar enjekte edilebilir mi?
@@ -61,6 +62,7 @@ WAF Tespiti	Web Uygulama Güvenlik Duvarı (WAF) var mı?
 WAF Bypass Teknikleri	WAF engellerini aşmak için teknikler denenir.
 SQLMap ile Veritabanı Tespiti	SQL Injection güvenlik açığı var mı?
 Port Taraması	Belirlenen portlar açık mı?
+
 Örnek Çıktılar
 1. Komut Enjeksiyonu Açığı Bulunduğunda:
 
@@ -81,7 +83,9 @@ Port Taraması	Belirlenen portlar açık mı?
 
 ***[*] SQLMap ile veritabanları tespit ediliyor...***
 ***[!] Bulunan veritabanları:***
+
 *- admin_db*
+
 *- users_db*
 
 WAF Bypass Denemeleri
@@ -95,15 +99,21 @@ Tool, aşağıdaki WAF bypass tekniklerini denemektedir:
 Başarıyla WAF bypass edilirse, şu mesaj gösterilir:
 
 ***[!] Parametre Kirliliği ile WAF bypass edildi!***
+
 Port Taraması
 Varsayılan olarak şu portlar taranır:
 
-***✅ 80 (HTTP)
-✅ 443 (HTTPS)
-✅ 8080 (Alternatif HTTP Portu)
-✅ 21 (FTP)
-✅ 22 (SSH)
-✅ 3306 (MySQL)***
+*✅ 80 (HTTP)*
+
+*✅ 443 (HTTPS)*
+
+*✅ 8080 (Alternatif HTTP Portu)*
+
+*✅ 21 (FTP)*
+
+*✅ 22 (SSH)*
+
+*✅ 3306 (MySQL)*
 
 Açık portlar yeşil renkte, kapalı portlar kırmızı renkte gösterilir:
 
