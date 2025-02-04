@@ -31,7 +31,7 @@ Python 3.x'in yüklü olduğundan emin olun. Ardından, gerekli kütüphaneleri 
 
 ***git clone https://github.com/sarsilmazhackteam/Root-Web-Tool-ozel.git***
 
-***cd Root-Web-Tool-Ozel***
+***cd Root-Web-Tool-ozel***
 
 - SQLMap'in sisteminizde kurulu olması gerekmektedir. Eğer yoksa, şu komutla kurabilirsiniz:
 
