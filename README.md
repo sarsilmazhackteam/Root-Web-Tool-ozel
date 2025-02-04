@@ -3,13 +3,21 @@ Root Security Scanner, web uygulamalarındaki güvenlik açıklarını tespit et
 
 # Özellikler
 ✅ Komut Enjeksiyonu testi
+
 ✅ Açık Dizin tespiti
+
 ✅ Dosya Dahil Etme (LFI) güvenlik açığı tespiti
+
 ✅ XSS (Cross-Site Scripting) güvenlik açığı tespiti
+
 ✅ CSRF (Cross-Site Request Forgery) güvenlik açığı tespiti
+
 ✅ Dosya Yükleme Açıkları ve bypass denemeleri
+
 ✅ WAF Tespiti ve Bypass Teknikleri
+
 ✅ SQLMap ile Veritabanı Tespiti
+
 ✅ Port Taraması
 
 # Kurulum
