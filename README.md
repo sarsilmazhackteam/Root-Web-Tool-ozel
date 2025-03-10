@@ -1,7 +1,7 @@
 # Root Security Scanner
 Root Security Scanner, web uygulamalarındaki güvenlik açıklarını tespit etmek için geliştirilmiş Python tabanlı bir güvenlik tarayıcıdır. Komut enjeksiyonu, dizin gezintisi, dosya dahil etme, XSS, CSRF, dosya yükleme açıklıkları, WAF tespiti ve bypass teknikleri gibi birçok güvenlik testini otomatik olarak gerçekleştirir.
 
-*- Bu Tool Emin Sarsılmaz tarafınca kodlanmıştır.*
+
 # Özellikler
 ✅ Komut Enjeksiyonu testi
 
@@ -150,7 +150,7 @@ Açık portlar yeşil renkte, kapalı portlar kırmızı renkte gösterilir:
 
 *Bu araç, yalnızca yasal testler ve eğitim amaçlı kullanılmalıdır. İzinsiz sızma testleri suçtur ve yasal sorumluluk gerektirir. Kullanımından doğabilecek tüm yasal sorumluluk kullanıcıya aittir.*
 
-**👤 Sarsılmaz Hack Team - Telegram**
-***https://t.me/sarsilmazhackteam***
+**👤 1337 X Sarsılmaz Hack Team - Telegram**
+***https://t.me/sarsilmazx1337***
 
 ***Eğitim İçindir, Kötüye Kullanım Yasaktır!***
